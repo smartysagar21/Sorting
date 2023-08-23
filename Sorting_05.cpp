@@ -30,6 +30,8 @@ int partition(vector<int> &arr, int l, int r){
             j--;
         }
     }
+
+    return pivotIndex;
 }
 
 
